@@ -1,0 +1,342 @@
+
+body{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+background-color: rgb(116, 0, 112);
+padding-left: 8rem;
+padding-right: 8rem;color: white;
+gap: px;
+}
+.toolbar-text{
+color: orange
+}
+.toolbar-flex{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.toolbar-flex a{
+    color: orange;
+}
+.menu{
+    display: flex;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-lists{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+.menu-lists a{
+    text-decoration: none;
+    color: black;
+}
+.menu-lists a:hover{
+    transition: -9s;
+    border-bottom: 2px solid rgb(255, 145, 0);
+    border-radius: 0 0 3px 3px;
+}
+.menu-lists li{
+    list-style: none;
+}
+.menu-lists button{
+    padding: 10px;
+    border: none;
+    background-color: rgb(133, 0, 133);
+    color: white;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.content{
+    background-image: url('../img/background.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.content-text h1{
+font-size: 55px;
+font-weight: 600;
+}
+.content-text p{
+    font-size: 40px;
+    font-weight: 300;
+}
+.content-text{
+    color: white;
+    padding-top: 3rem;
+}
+.content button{
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: orange;
+    color: black;
+}
+.content-icons{
+    display: grid;
+    margin-top: 4rem;
+}
+.content-icons a{
+    color: white;
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+     
+    .services h1{
+        text-align: center;
+        font-size: 45px;
+        font-weight: 500;
+        white-space: nowrap;
+        padding: 10px;
+    }
+    .services img{
+        width: 100%;
+    }
+    
+    .menu3{
+        display: flex;
+        justify-content: space-between;
+     text-align: center;
+     padding-left: 11rem;
+    padding-right: 11rem;
+    }
+    
+    .menu3 img{
+    width: 250px;
+    }
+    .group h1{
+        padding: 0 30px;
+        font-weight: 500;
+    }
+    .menu3 p{
+        padding-left: 35px;
+        padding-right: 35px;
+        color: rgba(102,101,102);
+    }
+    .group{
+        box-shadow: 0 0 19px rgba(0,0,0,0.1);
+        margin: 20px;
+        padding: 70px 18px;
+    }
+    .our-work{
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .our-work h1{
+        text-align: center;
+        font-size: 45px;
+        font-weight: 500;
+        white-space: nowrap;
+        padding: 10px;
+    }
+    .our-work img{
+        width: 100%;
+    }
+    .our-works{
+        background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 11rem;
+    padding-right: 11rem;
+    }
+    
+    .our-works h1{
+    color: white;
+    padding-top: 7rem;
+    }
+    .our-works2{
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 11rem;
+        padding-right: 11rem;
+    }
+    
+    .our-works2 h1{
+        color: white;
+    padding-top: 7rem;
+    }
+    .work1{
+    background-image: url(../img/работа\ на\ манаса\ 3.png);
+    background-size: cover;
+    height: 10vh;
+    width: 30vh;
+    margin: 20px;
+    padding: 70px 18px;
+    }
+    
+    .work2{
+        background-image: url(../img/работа\ на\ манаса\ 2.png);
+        background-size: cover;
+    height: 10vh;
+    margin: 20px;
+    padding: 70px 18px;
+    width: 30vh;
+    }
+    
+    .work3{
+        background-image: url(../img/1\ работа\ на\ манаса.png);
+        background-size: cover;
+    height: 10vh;
+    margin: 20px;
+    padding: 70px 18px;
+    width: 30vh;
+    }
+    
+    .work4{
+        background-image: url(../img/работа\ на\ манаса\ 4.png);
+        background-size: cover;
+    height: 10vh;
+    margin: 20px;
+    padding: 70px 18px;
+    width: 30vh;
+    }
+    
+    .work5 {
+        background-image: url(../img/работа\ на\ манаса\ 3.png);
+        background-size: cover;
+    height: 10vh;
+    margin: 20px;
+    padding: 70px 18px;
+    width: 30vh;
+    }
+    .work6{
+        background-image: url(../img/работана\ манаса2.png);
+        background-size: cover;
+    height: 10vh;
+    margin: 20px;
+    padding: 70px 18px;
+    width: 30vh;
+    }
+    .button button{
+        text-align: center;
+        color:white;
+        background-color:blueviolet ;
+        padding: 19px;
+        border-radius: 5px;
+        font-size: 19px;
+        padding-left: 6rem;
+        padding-right:6rem;
+    }
+    .production{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .production h1{
+        text-align: center;
+        font-size: 45px;
+        font-weight: 500;
+        white-space: nowrap;
+        padding: 10px;
+    }
+    .production img{
+        width: 100%;
+    }
+    .production-img{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 11rem;
+       padding-right: 11rem;
+    }
+    .production-img img{
+        margin: 20px;
+        padding: 70px 18px;
+    }
+    
+    
+    .button button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .our-price-img{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .our-price-img h1{
+        text-align: center;
+        font-size: 45px;
+        font-weight: 500;
+        white-space: nowrap;
+        padding: 10px;
+    }
+    
+    .our-price-img img{
+        width: 100%;
+    }
+    .our-price{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 11rem;
+        padding-right: 11rem;
+    }
+    .our-price-head img{
+        width: 20rem;
+        margin: 20px;
+    padding:1px 18px;
+    }
+    
+    .our-price2{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 11rem;
+        padding-right: 11rem;
+    }
+    .our-price-head p{
+        padding-left: 35px;
+        padding-right: 35px;
+        color: rgba(102,101,102);
+        font-size: 23px;
+    }
+    .our-price-head h1{
+    padding-left: 2rem;
+    color: blueviolet;
+    }
+    .our-price-head button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        color:white;
+        background-color:blueviolet ;
+        padding: 19px;
+        border-radius: 5px;
+        font-size: 19px;
+        padding-left: 6rem;
+        padding-right:6rem;
+    }
+    .costumer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+    .costumer h1{
+        text-align: center;
+        font-size: 45px;
+        font-weight: 500;
+        white-space: nowrap;
+        padding: 10px;
+    }
+    .costumer img{
+        width: 100%;
+    }
