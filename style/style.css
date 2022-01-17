@@ -85,8 +85,14 @@ font-weight: 600;
     color: black;
 }
 .content-icons{
-    display: grid;
-    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 74px;
+    margin-top: 6rem;
+}
+.content-icons i {
+    font-size: 78px;
 }
 .content-icons a{
     color: white;
@@ -340,3 +346,89 @@ font-weight: 600;
     .costumer img{
         width: 100%;
     }
+.nike{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+     padding-left: 11rem;
+    padding-right: 11rem;
+
+}
+.our_team{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.our_team h1{
+    text-align: center;
+        font-size: 45px;
+        font-weight: 500;
+        white-space: nowrap;
+        padding: 10px;
+}
+.our_team img{
+    width: 100%;
+}
+.people{
+    display: flex;
+        justify-content: space-between;
+        padding-left: 11rem;
+        padding-right: 11rem;
+}
+.people p{
+    text-align: start;
+    color: rgba(102,101,102);
+    font-size: 24px;
+}
+.people h1{
+    font-size: 36px;
+}
+.zayavka{
+    text-align: center;
+
+}
+.zayavka h1{
+    font-size: 32px;
+}
+.zayavka p{
+    color: rgba(102,101,102);
+    font-size: 18px;
+}
+.form-zayavka{
+    text-align: center;
+    border-radius: 4px;
+    padding: 4px;
+    box-shadow: grey;
+    padding-bottom: 4rem;
+
+}
+.form-zayavka button{
+    color:white;
+        background-color:blueviolet ;
+        padding: 5px;
+        border-radius: 3px;
+        font-size: 18px;
+        width: 226px;
+        height: 47px;
+}
+.form-zayavka input{
+    width: 315px;
+    height: 47px;
+    border-radius: 3px;
+    border: none;
+    border-color: grey;
+}
+.podval{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3A3A3A;
+}
+.podval h1{
+    color: #FFFFFF;
+}
+.podval p{
+    color: #BCBBBB;
+}
+.podval a{
+    color: #BCBBBB;
+}
