@@ -24,15 +24,19 @@ color: orange
     color: orange;
 }
 .menu{
+    max-width: 90%;
     display: flex;
-    padding-right: 8rem;
-    padding-left: 8rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
     justify-content: space-between;
+    padding: 0 8rem;
     align-items: center;
 }
 .menu-lists{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 40px;
 }
@@ -236,7 +240,7 @@ font-weight: 600;
         background-color:blueviolet ;
         padding: 19px;
         border-radius: 5px;
-        font-size: 19px;
+        font-size: 18px;
         padding-left: 6rem;
         padding-right:6rem;
     }
@@ -350,8 +354,8 @@ font-weight: 600;
     display: flex;
     justify-content: space-between;
     text-align: center;
-     padding-left: 11rem;
-    padding-right: 11rem;
+     padding-left: 8rem;
+    padding-right: 8rem;
 
 }
 .our_team{
@@ -431,4 +435,99 @@ font-weight: 600;
 }
 .podval a{
     color: #BCBBBB;
+}
+@media (max-width:480px) {
+    .toolbar{
+        padding: 0;
+        display: flex;
+        align-items: center;
+}
+.toolbar-text{
+    font-size: 14px;
+
+}
+.toolbar-flex{
+    display: none;
+}
+.menu{
+    display: none;
+}
+.content{
+    padding: 0;
+    text-align: center;
+    display: block;
+    height: 100vh;
+}
+.content-icons{
+    flex-direction: row;
+    gap: 14px;
+    justify-content: center;
+    margin: 1 auto;
+}
+.content-text h1{
+    font-size: 24px;
+}
+.content-text p{
+font-size: 16px;
+}
+.content-text button{
+    font-size: 16px;
+}
+.content-icons i{
+    font-size: 48px;
+}
+.services img{
+    width: 30%
+}
+.services h1{
+    font-size: 18px;
+}
+.menu3{
+    display: block;
+    padding: 0;
+}
+.our-work img{
+width: 30%;
+}
+.our-work h1{
+    font-size: 18px;
+
+}
+.our-work{
+    padding: 0;
+}
+.our-works{
+    padding: 0;
+    display: block;
+
+}
+.our-works h1{
+    font-size: 18px;
+
+}
+.our-works2{
+    padding: 0;
+    display: none;
+}
+.button button{
+border-radius: 3px;
+font-size: 18px;
+}
+.production img{
+    width: 30%;
+}
+.production h1{
+    font-size: 18px;
+}
+.production-img{
+    padding: 0;
+    display: block;
+}
+.production-img img{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 }
