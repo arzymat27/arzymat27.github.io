@@ -116,6 +116,7 @@ font-weight: 600;
     }
     .services img{
         width: 100%;
+        background-repeat: no-repeat;
     }
     
     .menu3{
@@ -157,6 +158,7 @@ font-weight: 600;
     }
     .our-work img{
         width: 100%;
+        background-repeat: no-repeat;
     }
     .our-works{
     background-repeat: no-repeat;
@@ -542,8 +544,8 @@ font-size: 16px;
 .our-price-img h1{
 font-size: 18px;
 }
-.our-price-img{
-    width: 30%;
+.our-price-img img{
+    width: 35%;
 }
 .our-price{
     display: block;
